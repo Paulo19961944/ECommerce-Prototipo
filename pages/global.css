@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    --primary-color: #E5F4F3;
+    --bg-color: #F0F2E6;
+    --font: "Instrument Sans", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body{
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+header{
+    background-color: var(--primary-color);
+}
